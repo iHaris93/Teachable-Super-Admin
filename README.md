@@ -7,9 +7,12 @@ This is perfectly safe but I am offering this as an open source project so peopl
 
 What this script does is to give the Admin a bit more control over exporting sections.
 
-Right now, only the Code Snippets sections work. This includes:
+Right now, only the Code Snippets sections and pages work. This includes:
 
-#CSS
-#Header Code
-#Logged In
-#Logged Out
+* CSS
+* Header Code
+* Logged In
+* Logged Out
+* HTML/Liquid Blocks
+
+Currently working on the lectures view along with User Experience and UI design.
