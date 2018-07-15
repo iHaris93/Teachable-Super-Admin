@@ -1,6 +1,4 @@
-# Teachable Super Admin 
-[![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)](https://github.com/Ellf/Teachable-Super-Admin)
-
+# Teachable Super Admin
 
 Additional features for the Teachable Admin
 
