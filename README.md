@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Teachable Super Admin 
-=======
 # Teachable Super Admin
->>>>>>> 4e8ae1f5447bc55547c53c0922d240149ddcfac6
 
 Additional features for the Teachable Admin
 
@@ -19,6 +15,8 @@ Right now, only the Code Snippets sections and pages work. This includes:
 * Logged In
 * Logged Out
 * HTML/Liquid Blocks
+
+The platform is throwing up some interesting conundrums that will need to be ironed out before allowing this to be used outside of our test school.
 
 Currently working on the lectures view along with User Experience and UI design.
 
