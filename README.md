@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Teachable Super Admin 
+=======
+# Teachable Super Admin
+>>>>>>> 4e8ae1f5447bc55547c53c0922d240149ddcfac6
 
 Additional features for the Teachable Admin
 
@@ -17,3 +21,6 @@ Right now, only the Code Snippets sections and pages work. This includes:
 * HTML/Liquid Blocks
 
 Currently working on the lectures view along with User Experience and UI design.
+
+# Purple Hippo Web Studio
+If you're looking for a Teachable developer, feel free to reach out to me at tom@purplehippo.io
