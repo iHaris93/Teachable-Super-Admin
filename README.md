@@ -1,4 +1,6 @@
-# Teachable Super Admin
+# Teachable Super Admin 
+![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)
+
 Additional features for the Teachable Admin
 
 This is a script file for Tampermonkey, a chrome plugin which allows JavaScript files to be 'injected' into websites.
@@ -16,3 +18,6 @@ Right now, only the Code Snippets sections and pages work. This includes:
 * HTML/Liquid Blocks
 
 Currently working on the lectures view along with User Experience and UI design.
+
+# Purple Hippo Web Studio
+If you're looking for a Teachable developer, feel free to reach out to me at tom@purplehippo.io
