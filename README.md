@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-# Teachable Super Admin
-=======
 # Teachable Super Admin 
-[![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)](https://github.com/Ellf/Teachable-Super-Admin)
 
-
->>>>>>> 72f6047... another try
 Additional features for the Teachable Admin
 
 This is a script file for Tampermonkey, a chrome plugin which allows JavaScript files to be 'injected' into websites.
