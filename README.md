@@ -20,5 +20,16 @@ The platform is throwing up some interesting conundrums that will need to be iro
 
 Currently working on the lectures view along with User Experience and UI design.
 
+# How to Use Super Admin
+- [ ] :fire: add full instructions on how to use Tampermonkey.
+
+Make sure to change line 7 to match your own school domain.
+
+```// @match        *://*.purplehippo.io/admin/*```
+
+This means if you don't have a custom domain (are still using Teachable's domain) then, line 7 may look something like:
+
+```// @match        *://*.teachable.com/admin/*```
+
 # Purple Hippo Web Studio
 If you're looking for a Teachable developer, feel free to reach out to me at tom@purplehippo.io
