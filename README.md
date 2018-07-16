@@ -1,4 +1,5 @@
-# Teachable Super Admin ![Github All Releases](https://img.shields.io/github/downloads/Ellf/Teachable-Super-Admin/total.svg) ![license](https://img.shields.io/github/license/ellf/teachable-super-admin.svg)
+# Teachable Super Admin ![Github All Releases](https://img.shields.io/github/downloads/Ellf/Teachable-Super-Admin/total.svg) ![license](https://img.shields.io/github/license/ellf/teachable-super-admin.svg) ![Github file size](https://img.shields.io/github/size/ellf/Teachable-Super-Admin/teachable-super-admin.user.js.svg)
+
 
 
 Additional features for the Teachable Admin
