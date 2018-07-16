@@ -1,4 +1,4 @@
-# Teachable Super Admin [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+# Teachable Super Admin [![Github All Releases](https://img.shields.io/github/downloads/Ellf/Teachable-Super-Admin/total.svg)]()
 
 Additional features for the Teachable Admin
 
@@ -14,7 +14,7 @@ Right now, only the Code Snippets sections and pages work. This includes:
 * Header Code
 * Logged In
 * Logged Out
-* HTML/Liquid Blocks
+* Some HTML/Liquid Blocks
 
 The platform is throwing up some interesting conundrums that will need to be ironed out before allowing this to be used outside of our test school.
 
