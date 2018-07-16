@@ -34,4 +34,9 @@ This means if you don't have a custom domain (are still using Teachable's domain
 ```// @match        *://*.teachable.com/admin/*```
 
 # Purple Hippo Web Studio
-If you're looking for a Teachable developer, feel free to reach out to me at tom@purplehippo.io
+If you're looking for a Teachable developer, feel free to reach out to me at tom@purplehippo.io or visit my website at:
+
+https://purplehippo.io
+https://themes.purplehippo.io
+https://sections.purplehippo.io
+https://teaching.purplehippo.io

@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Teachable Admin Upgrade
+// @name         teachable-super-admin
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Script to upgrade some of Teachable's admin functions
 // @author       Tom Lorimer
 // @match        *://*.purplehippo.io/admin/*
@@ -68,6 +68,7 @@
     var $ = window.jQuery;
     var build = "";
     var editor = [];
+    var name = ['css', 'head', 'in', 'out'];
     var alertme;
     var btnCount = 0;
 
@@ -108,7 +109,6 @@
         if (window.location.href.indexOf('/admin/site/code-snippets') > -1 ) {
             // build the buttons on the code-snippets page
             $('.ace_editor').each(function(i) {
-                var name = ['css', 'head', 'in', 'out'];
                 //= $(this).parent().parent().parent().parent().parent().parent().find('span').html().split(' ')[0];
                 build += '<a id="btn-' + i + '" href="#" class="btn btn-primary btn-fw">' + name[i] + '</a> ';
                 // here we need to get a count of the number of buttons
@@ -149,9 +149,25 @@
             $('.dummy').remove();
             var button = this.text;
             console.log('button: ', button);
+            // Change the button variable to an index based on the name[] array.
+            switch(button) {
+                case 'css':
+                    button = 0;
+                    break;
+                case 'head':
+                    button = 1;
+                    break;
+                case 'in':
+                    button = 2;
+                    break;
+                case 'out':
+                    button = 3;
+                    break;
+            }
             alertme = editor[button].getSession().getValue();
             // we have the data in alertme - now we need to do something with it.
             // place the data into a dummy element so we can copy it to the clipboard
+            //console.log(alertme);
             $('.au').append('<textarea class="dummy"></textarea>');
             $('.dummy').html(alertme);
             $('.dummy').select();
