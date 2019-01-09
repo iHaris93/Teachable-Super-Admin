@@ -41,10 +41,16 @@
         "}",
         ".au-footer {",
         "background-color: #dfdfdf;",
+        "cursor: pointer;",
         "}",
         ".au-dropdown {",
         "top: 57px;",
         "transition: all 0.4s ease-in-out",
+        "}",
+        ".dummy {",
+        "position: absolute;",
+        "right: 0;",
+        "color: #ff0000;",
         "}"
     ].join("\n");
 
@@ -172,6 +178,10 @@
             $('.dummy').html(alertme);
             $('.dummy').select();
             document.execCommand("copy");
+            $('.dummy').focusout(function() {
+                console.log('focusout');
+                $(this).remove();
+            });
         });
 
         $('button').click(function() {
